@@ -1,0 +1,43 @@
+/* Estilização da página de blog */
+
+main {
+    margin-top: 5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#ultimas-noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+}
+
+.artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 44rem;
+}
+
+.artigo img {
+    margin-bottom: 1.5rem;
+    height: 14rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.artigo h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--secondary);
+}
+
+.artigo p {
+    font-size: 1.25rem;
+}

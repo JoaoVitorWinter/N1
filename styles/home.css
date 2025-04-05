@@ -49,25 +49,3 @@ hr {
 #chamada p {
     font-size: 1.5rem;
 }
-
-#chamada a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
-    border-radius: 0.5rem;
-    padding: 1rem 2.5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    background-color: var(--secondary);
-    color: var(--quintenary);
-    text-decoration: none;
-    transition: ease-in-out;
-    transition-duration: 0.5s;
-}
-
-#chamada a:hover {
-    background-color: #77002D;
-    gap: 1.5rem;
-    padding-right: 1.75rem;
-}

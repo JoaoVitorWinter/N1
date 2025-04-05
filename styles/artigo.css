@@ -1,0 +1,38 @@
+/* Estilização da página de um artigo */
+
+main {
+    margin-top: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--secondary);
+}
+
+img {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 21rem;
+    border-radius: 0.5rem;
+}
+
+#conteudo-artigo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.button-inverse {
+    margin-top: 3rem;
+    width: fit-content;
+}
+
+svg {
+    transform: rotate(180deg);
+}
