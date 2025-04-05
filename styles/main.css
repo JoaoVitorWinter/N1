@@ -1,0 +1,122 @@
+/* Arquivo CSS que definirá estilização que será utilizada no resto das páginas */
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* Definição de variáveis que serão comuns pelo site */
+
+:root {
+    --primary: #9E0031;
+    --secondary: #44001A;
+    --terciary: #FAC748;
+    --quartiary: #56666B;
+    --quintenary: #F9E9EC;
+    --black: #070D28;
+}
+
+/* Classes para font-family */
+
+.font-shrikhand {
+    font-family: "Shrikhand", serif;
+}
+
+.font-teachers {
+    font-family: "Teachers", sans-serif;
+}
+
+/* Resetando CSS dos elementos */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Valores padrões */
+
+body {
+    font-weight: 400;
+    background-color: #F2F6EC;
+    color: var(--black);
+}
+
+/* Grid base */
+
+.base-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.25rem;
+}
+
+/* Estilização do header */
+
+header {
+    background-color: var(--primary);
+    font-size: 1.25rem;
+    position: relative;
+    grid-column: 1 / -1;
+    padding: 2rem 0;
+}
+
+header nav {
+    grid-column: 2 / -1;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+
+header a {
+    color: var(--quintenary);
+    text-decoration: none;
+}
+
+header a:active {
+    color: var(--secondary);
+}
+
+#marcador {
+    position: absolute;
+    right: 9.75rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#marcador:hover #desenho {
+    height: 11.75rem;
+}
+
+#desenho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 1.25rem;
+    background-color: var(--terciary);
+    height: 7.5rem;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 0.5s;
+}
+
+#recorte {
+    display: flex;
+}
+
+#triangulo-esquerdo {
+    border-bottom: solid 1.5rem transparent;
+    border-left: solid 3rem var(--terciary);
+}
+
+#triangulo-direito {
+    border-bottom: solid 1.5rem transparent;
+    border-right: solid 3rem var(--terciary);
+}
+
+
+/* Estilização padrão do conteúdo principal */
+
+main {
+    grid-column: 2 / -2;
+    margin-bottom: 10rem;
+}

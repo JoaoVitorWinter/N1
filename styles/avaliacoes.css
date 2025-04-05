@@ -1,0 +1,87 @@
+/* Estilização da página de avaliações */
+
+
+main {
+    margin-top: 4rem;
+}
+
+#todas-avaliacoes h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#todas-avaliacoes #titulo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#avaliacoes {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10rem;
+    gap: 6rem;
+}
+
+.avaliacao {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.perfil-livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-livro img {
+    z-index: 9999;
+    width: 9.75rem;
+    height: 14.25rem;
+    border: 0.25rem solid var(--primary);
+    border-radius: 0.5rem;
+}
+
+.perfil-livro a {
+    margin-top: -4rem;
+    width: 7rem;
+    height: 7rem;
+    border: 0.25rem solid var(--primary);
+    border-radius: 9999px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.informacoes-livro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.informacoes-livro h3 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--primary);
+    offset: 25%;
+    text-decoration-thickness: 13%;
+    text-decoration-skip-ink: auto;
+}
+
+.informacoes-livro p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.estrelas {
+    display: flex;
+    gap: 8px;
+}
