@@ -49,3 +49,51 @@ hr {
 #chamada p {
     font-size: 1.5rem;
 }
+
+/* Estilização da avaliação da página */
+
+#avaliacao {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+#avaliacao div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#avaliacao p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+}
+
+#avaliacao img {
+    border-radius: 9999px;
+    width: 12rem;
+    height: 12rem;
+    border: solid #FD6161 12px;
+}
+
+#avaliacao span {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+#marca-esquerda {
+    transform: rotate(180deg);
+    transform: scaleX(-1);
+    align-self: flex-end;
+}
+
+#marca-direita {
+    margin-left: -4rem;
+    transform: scaleX(1);
+    align-self: flex-start;
+}

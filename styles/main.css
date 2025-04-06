@@ -124,6 +124,21 @@ header a:hover {
     border-right: solid 3rem var(--terciary);
 }
 
+/* Estilização do footer */
+
+footer {
+    background: var(--quartiary);
+    grid-column: 1 / -1;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+footer p {
+    padding: 0 5rem;
+    color: var(--quintenary);
+    font-size: 1rem;
+}
+
 
 /* Estilização padrão do conteúdo principal */
 
