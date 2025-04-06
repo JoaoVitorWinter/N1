@@ -85,3 +85,12 @@ main {
     display: flex;
     gap: 8px;
 }
+
+
+#flecha-titulo {
+    transition: transform 200ms ease-in-out;
+}
+
+#flecha-titulo:hover {
+    transform: translateX(-8px);
+}

@@ -38,6 +38,11 @@ body {
     color: var(--black);
 }
 
+::selection {
+    color: var(--quintenary);
+    background: var(--secondary);
+  }
+
 /* Grid base */
 
 .base-grid {
@@ -73,6 +78,12 @@ header a {
 
 header a:active {
     color: var(--secondary);
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
 }
 
 #marcador {

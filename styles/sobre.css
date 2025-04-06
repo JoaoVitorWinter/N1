@@ -8,7 +8,7 @@ main {
     gap: 2.5rem;
 }
 
-main > p {
+main>p {
     text-align: center;
     font-size: 1.5rem;
 }
@@ -33,4 +33,24 @@ main > p {
     width: 8rem;
     height: 8rem;
     border-radius: 9999px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#staff img:hover {
+    transform: scale(1.1);
+}
+
+#texto-staff {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#texto-staff p {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+
+#texto-staff h2 {
+    font-size: 2rem;
 }
