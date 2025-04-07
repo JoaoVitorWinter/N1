@@ -125,18 +125,70 @@ header a:hover {
 }
 
 /* Estilização do footer */
-
 footer {
     background: var(--quartiary);
     grid-column: 1 / -1;
-    padding-top: 10rem;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
     padding: 0 5rem;
     color: var(--quintenary);
     font-size: 1rem;
+}
+
+#direitos {
+    color: #070d2862;
+    font-family: "teacher", sans-serif;
+    font-weight: 600;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#links a {
+    color: var(--quintenary);
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+}
+
+.divisor {
+    width: 0.3rem;
+    height: 0.3rem;
+    background-color: #070D28;
+    border-radius: 100%;
+}
+
+#redes-sociais {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    padding: 0.5rem;
+    border-radius: 90%;
+    background-color: #F9E9EC;
+    cursor: pointer;
 }
 
 
@@ -146,8 +198,6 @@ main {
     grid-column: 2 / -2;
     margin-bottom: 10rem;
 }
-
-
 
 .button, .button-inverse {
     display: flex;
